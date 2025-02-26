@@ -1,6 +1,6 @@
 <?php
 // Pre-determined email address
-$to = "YOUR-EMAIL@EXAMPLE.COM";
+$to = "rylee.peak@thewca.us";
 
 // Check if request method is POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   // Redirect to success page
-  header("Location: HTTPS://EXAMPLE.COM/");
+  header("Location: https://www.rpeak.org/thanks.html");
   exit();
 } else {
   $response = array(
